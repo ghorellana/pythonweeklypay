@@ -1,0 +1,5 @@
+wage = float(input("Enter wage: $"))
+regularhours = float(input("Enter regular hours: $"))
+overtimehrs = float(input("Enter OT: $"))
+totalpay = float((wage*regularhours)+(wage*1.5*overtimehrs))
+print("The total weekly pay is $" + str(round(totalpay, 2)))
